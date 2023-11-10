@@ -2,7 +2,17 @@ These instructions are for setting up some simple Twitch chat integration for Cy
 
 ## Usage
 
-See below for the available commands.
+Available commands:
+
+- !w - Walk forwards
+- !sprint - Sprint forwards
+- !s - Walk backwards
+- !a/!left - Strafe left (on foot) or turn left (in vehicle)
+- !d/!right - Strafe right (on foot) or turn right (in vehicle)
+- !jump/!space - Jump (on foot)
+- !heal/!x - Heal
+- !grenade - Throw grenade (on foot)
+- !turn - Turn to a random direction (on foot)
 
 To enable the commands, use !enablechaos, and disable with !disablechaos (streamer/moderator only).
 
