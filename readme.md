@@ -2,17 +2,7 @@ These instructions are for setting up some simple Twitch chat integration for Cy
 
 ## Usage
 
-Available commands:
-
-- !w - Walk forwards
-- !sprint - Sprint forwards
-- !s - Walk backwards
-- !a/!left - Strafe left (on foot) or turn left (in vehicle)
-- !d/!right - Strafe right (on foot) or turn right (in vehicle)
-- !jump/!space - Jump (on foot)
-- !heal/!x - Heal
-- !grenade - Throw grenade (on foot)
-- !turn - Turn to a random direction (on foot)
+See below for the available commands.
 
 To enable the commands, use !enablechaos, and disable with !disablechaos (streamer/moderator only).
 
@@ -20,12 +10,16 @@ To enable the commands, use !enablechaos, and disable with !disablechaos (stream
 
 Create commands:
 
+### !w - Walk forwards
+
 - Trigger: !w
 - Effects:
   - Emulate Control
     - Mode: Key Press
     - Key: w
     - Secs: 3
+
+### !sprint - Sprint forwards
 
 - Trigger: !sprint
 - Effects:
@@ -35,12 +29,16 @@ Create commands:
     - Modifiers: Shift
     - Secs: 3
 
+### !s - Walk backwards
+
 - Trigger: !s
 - Effects:
   - Emulate Control
     - Mode: Key Press
     - Key: s
     - Secs: 3
+
+### !a/!left - Strafe left (on foot) or turn left (in vehicle)
 
 - Trigger: !a
 - Alias: !left
@@ -50,6 +48,8 @@ Create commands:
     - Key: a
     - Secs: 1
 
+### !d/!right - Strafe right (on foot) or turn right (in vehicle)
+
 - Trigger: !d
 - Alias: !right
 - Effects:
@@ -58,12 +58,16 @@ Create commands:
     - Key: d
     - Secs: 1
 
+### !jump/!space - Jump (on foot)
+
 - Trigger: !jump
 - Alias: !space
 - Effects:
   - Emulate Control
     - Mode: Key Press
     - Key: space
+
+### !heal/!x - Heal
 
 - Trigger: !heal
 - Alias: !x
@@ -72,11 +76,15 @@ Create commands:
     - Mode: Key Press
     - Key: x
 
+### !grenade - Throw grenade (on foot)
+
 - Trigger: !grenade
 - Effects:
   - Emulate Control
     - Mode: Key Press
     - Key: middlemouse
+
+### !turn - Turn to a random direction (on foot)
 
 - Trigger: !turn
 - Effects:
@@ -95,6 +103,8 @@ Edit each of the above commands and add:
 
 Create more commands:
 
+### Enable commands
+
 - Trigger: !enablechaos
 - Restrictions:
   - Permissions
@@ -104,6 +114,8 @@ Create more commands:
   - Custom Variable
     - Name: chaos
     - Value: true
+
+### Disable commands
 
 - Trigger: !disablechaos
 - Restrictions:
