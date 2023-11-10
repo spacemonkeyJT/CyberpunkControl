@@ -19,6 +19,8 @@ To enable the commands, use !enablechaos, and disable with !disablechaos (stream
 
 ## Setup
 
+Some of the commands below require [AutoHotKey](https://www.autohotkey.com/) to be installed.
+
 Create commands:
 
 ### !w - Walk/drive forwards
@@ -111,8 +113,6 @@ Create commands:
   - Run Program
     - File: cmd.exe
     - Args: /c C:\path\to\Attack.ahk (see [Attack.ahk](Attack.ahk))
-
-Some of the above commands require [AutoHotKey](https://www.autohotkey.com/) to be installed.
 
 Edit each of the above commands and add:
 
