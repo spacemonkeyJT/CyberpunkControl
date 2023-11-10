@@ -84,7 +84,7 @@ Create commands:
     - File: cmd.exe
     - Args: /c C:\path\to\TurnRandom.ahk (see [TurnRandom.ahk](TurnRandom.ahk))
 
-The above !turn command requires AutoHotKey to be installed, see https://www.autohotkey.com/
+The above !turn command requires [AutoHotKey](https://www.autohotkey.com/) to be installed.
 
 Edit each of the above commands and add:
 
