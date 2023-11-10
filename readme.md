@@ -13,7 +13,7 @@ Available commands:
 - !heal/!x - Heal
 - !grenade - Throw grenade (on foot)
 - !turn - Turn to a random direction (on foot)
-- !attack/!shoot - Attack with eqipped weapon
+- !attack/!shoot - Attack with equipped weapon
 
 To enable the commands, use !enablechaos, and disable with !disablechaos (streamer/moderator only).
 
@@ -103,7 +103,7 @@ Create commands:
     - File: cmd.exe
     - Args: /c C:\path\to\TurnRandom.ahk (see [TurnRandom.ahk](TurnRandom.ahk))
 
-### !attack/!shoot - Attack with eqipped weapon
+### !attack/!shoot - Attack with equipped weapon
 
 - Trigger: !attack
 - Alias: !shoot
