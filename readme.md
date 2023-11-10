@@ -113,7 +113,7 @@ Edit each of the above commands and add:
 
 Create more commands:
 
-### Enable commands
+### !enablechaos - Enable commands
 
 - Trigger: !enablechaos
 - Restrictions:
@@ -125,7 +125,7 @@ Create more commands:
     - Name: chaos
     - Value: true
 
-### Disable commands
+### !disablechaos - Disable commands
 
 - Trigger: !disablechaos
 - Restrictions:
