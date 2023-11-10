@@ -4,9 +4,9 @@ These instructions are for setting up some simple Twitch chat integration for Cy
 
 Available commands:
 
-- !w - Walk forwards
-- !sprint - Sprint forwards
-- !s - Walk backwards
+- !w - Walk/drive forwards
+- !sprint - Sprint forwards (on foot)
+- !s - Walk/drive backwards
 - !a/!left - Strafe left (on foot) or turn left (in vehicle)
 - !d/!right - Strafe right (on foot) or turn right (in vehicle)
 - !jump/!space - Jump (on foot)
@@ -20,7 +20,7 @@ To enable the commands, use !enablechaos, and disable with !disablechaos (stream
 
 Create commands:
 
-### !w - Walk forwards
+### !w - Walk/drive forwards
 
 - Trigger: !w
 - Effects:
@@ -29,7 +29,7 @@ Create commands:
     - Key: w
     - Secs: 3
 
-### !sprint - Sprint forwards
+### !sprint - Sprint forwards (on foot)
 
 - Trigger: !sprint
 - Effects:
@@ -39,7 +39,7 @@ Create commands:
     - Modifiers: Shift
     - Secs: 3
 
-### !s - Walk backwards
+### !s - Walk/drive backwards
 
 - Trigger: !s
 - Effects:
