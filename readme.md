@@ -1,3 +1,23 @@
+These instructions are for setting up some simple Twitch chat integration for Cyberpunk 2077, to allow viewers to control the game via chat commands created in [Firebot](https://firebot.app/). This is aimed at Twitch streamers using and familiar with Firebot.
+
+## Usage
+
+Available commands:
+
+- !w - Walk forwards
+- !sprint - Sprint forwards
+- !s - Walk backwards
+- !a/!left - Strafe left (on foot) or turn left (in vehicle)
+- !d/!right - Strafe right (on foot) or turn right (in vehicle)
+- !jump/!space - Jump (on foot)
+- !heal/!x - Heal
+- !grenade - Throw grenade (on foot)
+- !turn - Turn to a random direction (on foot)
+
+To enable the commands, use !enablechaos, and disable with !disablechaos (streamer/moderator only).
+
+## Setup
+
 Create commands:
 
 - Trigger: !w
@@ -5,6 +25,14 @@ Create commands:
   - Emulate Control
     - Mode: Key Press
     - Key: w
+    - Secs: 3
+
+- Trigger: !sprint
+- Effects:
+  - Emulate Control
+    - Mode: Key Press
+    - Key: w
+    - Modifiers: Shift
     - Secs: 3
 
 - Trigger: !s
@@ -54,7 +82,7 @@ Create commands:
 - Effects:
   - Run Program
     - File: cmd.exe
-    - Args: /c C:\path\to\TurnRandom.ahk
+    - Args: /c C:\path\to\TurnRandom.ahk (see [TurnRandom.ahk](TurnRandom.ahk))
 
 The above !turn command requires AutoHotKey to be installed, see https://www.autohotkey.com/
 
