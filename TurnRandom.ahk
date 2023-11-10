@@ -2,6 +2,6 @@
 
 SendMode "Event"
 
-X := Random(0, 2559)
+X := Random(-1920, 1920)
 
-MouseMove X, 720
+MouseMove X, 540
