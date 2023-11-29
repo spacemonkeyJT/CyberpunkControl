@@ -6,6 +6,6 @@ SendMode "Event"
 x := 0
 Loop {
   MouseClick "Left"
-  Sleep 100
+  Sleep 50
   x += 1
-} Until x = 10
+} Until x = 25
